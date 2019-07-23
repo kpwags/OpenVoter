@@ -1,0 +1,86 @@
+/*
+	Copyright 2008-2010 OpenVoter
+	
+	This file is part of OpenVoter.
+
+	OpenVoter is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, version 3.
+
+	OpenVoter is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with OpenVoter.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+* { margin:0; padding:0 }
+
+body {
+	font:12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#2d2d2d;
+	background:#fff;
+	min-width:1024px;
+	position: relative;
+}
+
+a, a:visited, a:link, a:active { text-decoration:none; color:#00D }
+
+a:hover { text-decoration:underline }
+
+p {
+	margin:0 0 5px 0;
+	line-height:1.5;
+}
+
+ul { padding:0 }
+
+/* ---- HEADERS ---- */
+
+h1 { font-size:22px; font-weight:bold; margin:10px 0 }
+h2 { font-size:20px; font-weight:bold; margin:10px 0 }
+h3 { font-size:18px; font-weight:normal; margin:7px 0; color:#00a }
+h4 { font-size:16px; font-weight:normal; margin:5px 0 }
+h5 { font-size:14px; font-weight:normal; margin:5px 0; color:#00a }
+h6 { font-size:12px; font-weight:bold; margin:3px 0 }
+
+#container {
+	width:960px;
+	margin:0 auto;
+}
+
+/* ---- HEADER ---- */
+#header {
+	margin:10px 0;
+}
+
+#header .logo {
+	float:left;
+	width:500px;
+}
+
+#header .admin-user {
+	font-size:14px;
+	border:1px solid #666;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	padding:4px;
+	float:right;
+	background:#dedede;
+}
+
+#header .admin-user span.name {
+	color:#666;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+#header .admin-user span.arrow {
+	padding-left:5px;
+	vertical-align: middle;
+}
+
+.clearfix { clear:both }

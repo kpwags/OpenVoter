@@ -1,0 +1,11 @@
+Options -MultiViews
+ErrorDocument 404 /error
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^css - [L,NC]
+RewriteRule ^img - [L,NC]
+RewriteRule ^js - [L,NC]
+RewriteRule ^php/.*$ - [L,NC]
+
+RewriteRule ^login$ index.php?page=login [L,QSA]
